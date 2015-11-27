@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="ruby,bootstrap,html,git">
+    <meta name="description" content="rubyonRailsの勉強のために作ったサイトです">
+    <title>ポートフォリオ</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        font-size: 14px;
+      }
+
+      .navbar {
+        border-radius: 0;
+      }
+
+      .row {
+        margin-bottom: 50px;
+      }
+
+      .icon {
+        text-align: center;
+      }
+
+      .icon .glyphicon {
+        margin-bottom: 10px;
+        font-size: 40px;
+        color: #777;
+      }
+
+      .content h2 {
+        margin-top: 0;
+        padding-bottom: 15px;
+      }
+      .content p {
+        margin-bottom: 30px;
+      }
+
+      footer {
+        border-top: 1px solid#e7e7e7;
+        background-color: #f8f8f8;
+        text-align: center;
+      }
+
+      .copyright {
+        padding: 20px 0;
+        font-size: 12px;
+        color: #666;
+      }
+
+      @media (max-width: 768px) {
+        body {
+          font-size: 12px;
+        }
+        h1 {
+          font-size: 30px;
+        }
+        h2 {
+          font-size: 24px;
+        }
+        .panel-title {
+          font-size: 14px;
+        }
+      }
+    body,td,th {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+<div class="collapse navbar-collapse" id="site-menu">
+        <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">トップ</a></li>
+              <li><a href="#">便利なTip集</a></li>
+              <li><a href="#">参考資料など</a></li>
+              <li class="active"><a href="#">お問い合わせ</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                  覚書
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">JQeary</a></li>
+                  <li><a href="#">BootStrap</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="page-header">
+        <h1>プロフィール</h1>
+      </div>
+        <div class="row">
+        <div class="icon col-sm-3 hidden-xs">
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+          <div class="icon-caption">Makoto Kanai</div>
+        </div>
+        <div class="content col-sm-9 col-md-8">
+        
+          <h2>名前　：　金井　誠　<small>Makoto Kanai</small></h2>
+          
+          <div class="table-responsive" table col-sm-9>
+			<p>
+            これから作る作品の一例です。（途中）
+            当方は某専門学校で講師をしております。
+            ご興味のある方は<a href="#">こちら</a>までご連絡ください！
+      </p>
+      
+            <table align="left" class="table-bordered">
+              <thead>
+                <tr>
+                  <th>作品内容</th>
+                  <th>説明</th>
+                  <th>評価</th>
+                </tr>
+              </thead>
+              <tbody>
+              <tr>
+              <td><img src="noimage.jpg" width="180" height="180" alt=""/></td>
+                  <td width="460">ポートフォリオの作成</td>
+                  <td>提出予定</td>
+                </tr>
+                <tr>
+                  <td><img src="noimage.jpg" width="180" height="180" alt=""/></td>
+                  <td>メッセージボードの課題</td>
+                  <td>作成中</td>
+                </tr>
+                <tr>
+                  <td><img src="noimage.jpg" width="180" height="180" alt=""/></td>
+                  <td>Twitterクローンの課題</td>
+                  <td>未提出</td>
+                </tr>
+                 <tr>
+                  <td><img src="noimage.jpg" width="180" height="180" alt=""/></td>
+                  <td>モノリストの課題</td>
+                  <td>未提出</td>
+                 </tr> 
+                 <tr>  
+                   <td><img src="noimage.jpg" width="180" height="180" alt=""/></td>
+                  <td>オリジナルの課題</td>
+                  <td>未提出</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title" id="panel-title">
+                <span class="glyphicon glyphicon glyphicon-list" aria-hidden="true"></span>
+                制作時のポイント
+              </h3>
+            </div>
+            <div class="panel-body">
+             　<ul>
+             
+             	<li>html5,BootStrapの利用</li>
+                <li>レスポンシブデザインを意識</li>
+                <li>RubyonRailsの活用</li>
+             </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  <div class="row">
+        <div class="icon col-sm-3 hidden-xs col-md-offset-1 col-md-2">
+          <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+          <div class="icon-caption">メール</div>
+        </div>
+        <div class="content col-sm-9 col-md-7">
+          <h2>ご興味のある方はご連絡ください</h2>
+          <p>
+            プライバシーポリシーをご確認、ご同意の上、送信ボタンを押してください。<br>
+            お問い合わせの回答は、受付日から3営業日以内をめどにご返信差し上げます。
+          </p>
+          <form class="form-horizontal">
+            <div class="form-group">
+              
+              <div class="col-md-5 col-md-offset-2">
+                <input type="text" class="form-control" id="inputCompany" placeholder="例）サンプル株式会社">
+              </div>
+            </div>
+              <div class="form-group">
+              <label for="inputName" class="col-md-2 control-label">氏名</label>
+              <div class="col-md-8">
+                <input type="text" class="form-control" id="inputName" placeholder="例）煌木 太郎">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail" class="col-md-2 control-label">メールアドレス</label>
+              <div class="col-md-8">
+                <input type="email" class="form-control" id="inputEmail" placeholder="例) Makoto.kanai@example.com">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputTel" class="col-md-2 control-label">電話番号</label>
+              <div class="col-md-8">
+                <input type="tel" class="form-control" id="inputTel" placeholder="例）0312345678">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputContent" class="col-md-2 control-label">お問い合わせ内容</label>
+              <div class="col-md-8">
+                <textarea class="form-control" id="inputContent" rows="4" placeholder="具体的にお書きください"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-offset-2 col-md-8">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox">プライバシーポリシーに同意
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10 col-md-8">
+                <button type="submit" class="btn btn-default btn-success btn-block">お問い合わせを送信</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+   
+    <footer>
+      <div class="copyright">© Makoto Kanai</div>
+    </footer>
+  </body>
+</html>
